@@ -2,7 +2,7 @@
 <html lang="fr">
 
 <head>
-   <!-- Google Tag Manager -->
+  <!-- Google Tag Manager -->
   <script>(function (w, d, s, l, i) {
       w[l] = w[l] || []; w[l].push({
         'gtm.start':
@@ -30,24 +30,41 @@
       /* Prend environ la moitié de l'espace disponible */
       /* Vous pouvez ajouter d'autres styles ici si nécessaire */
     }
+    
+    /* Faire en sorte que l'image soit responsive */
+img {
+  max-width: 100%; /* Assurez-vous que l'image ne déborde jamais de son conteneur */
+  display: block;  /* L'image sera affichée en tant que block */
+  margin-left: auto; /* Les marges gauche et droite à 'auto' centreront l'image horizontalement */
+  margin-right: auto;
+}
+footer {
+  text-align: center;
+  padding-top: 20px;
+}
+
+    h2 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+        nav {
+  text-align: center;
+  padding-top: 20px;
+           list-style-type: none;
+    margin: 5px;
+}
   </style>
 </head>
 
 <body>
-   <!-- Google Tag Manager (noscript) -->
+  <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PP252G3C" height="0" width="0"
       style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <header>
     <h1>Choses importantes</h1>
   </header>
-  <nav>
-    <!-- Vous pouvez réutiliser votre navigation ici si vous le souhaitez -->
-    <ul>
-      <li><a href="index.html">Page d'accueil</a></li>
-
-    </ul>
-  </nav>
   <main>
     <h2>Mes classements</h2>
     <div class="classements-container">
@@ -55,8 +72,8 @@
         <h3>Animaux Sauvages</h3>
         <ol>
           <li>Gibbon</li>
-          <li>Crocodile</li>
           <li>Requin</li>
+          <li>Crocodile</li>
         </ol>
       </div>
       <div class="classement">
@@ -84,7 +101,7 @@
           <li>Nekfeu</li>
           <li>Népal</li>
           <li>Sch</li>
-          <li>Jul</li>
+          <li>Limsa D'aulnay</li>
         </ol>
       </div>
       <div class="classement">
@@ -108,7 +125,15 @@
         </ol>
       </div>
     </div>
+    
+      <nav>
+    <li><a href="index.html">Page d'accueil</a></li>
+     
+  </nav>
+    <br />
+    <img src="images/aboutme.gif" alt="AboutMe">
 
+<br />
   </main>
   <footer>
     © 1998 NathanFortiche

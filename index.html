@@ -2,16 +2,15 @@
 <html lang="fr">
 
 <head>
-   <!-- Google Tag Manager -->
-  <script>(function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-PP252G3C');</script>
-  <!-- End Google Tag Manager -->
+
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PP252G3C');</script>
+<!-- End Google Tag Manager -->
+  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>nathanfortiche.com</title>
@@ -45,6 +44,14 @@ nav ul li {
   margin: 5px; /* Espacement horizontal entre les éléments de la liste */
 }
 
+/* Faire en sorte que l'image soit responsive */
+img {
+  max-width: 100%; /* Assurez-vous que l'image ne déborde jamais de son conteneur */
+  display: block;  /* L'image sera affichée en tant que block */
+  margin-left: auto; /* Les marges gauche et droite à 'auto' centreront l'image horizontalement */
+  margin-right: auto;
+}
+
 
 
 nav a {
@@ -62,13 +69,15 @@ footer {
 </head>
 
 <body>
-   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PP252G3C" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PP252G3C"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
   <header>
     <h1>nathanfortiche.com</h1>
   </header>
+  <img src="images/Bienvenue004.gif" alt="Bienvenue">
+  <br />
   <nav>
     <!-- Liste de liens -->
     <ul>
@@ -81,9 +90,10 @@ footer {
       </li>
       <li><a href="choses-importantes.html">Choses importantes</a></li>
     </ul>
-     <img src="images/planet.gif" alt="Planète">
-
+    <br /><br />
   </nav>
+  <img src="images/planet.gif" alt="Planète">
+<br />
   <footer>
     © 1998 NathanFortiche
   </footer>
